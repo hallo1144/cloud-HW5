@@ -1,0 +1,56 @@
+html {
+  background-color: #2A2C2E;
+}
+
+#Home_container{
+  display: flex;
+  margin-top: 15vw;
+  width: 100%;
+  justify-content: center;
+}
+
+#Home_content{
+  margin-left: 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Home_content_title{
+  position: relative;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Papyrus','Arial';
+  color: rgb(233, 202, 145);
+}
+
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexyen.css");
+
+#Home_content_meme{
+  position: relative;
+}
+
+#Home_image{
+  overflow: hidden;
+}
+
+#Home_image_column{
+  float:left;
+  /* position: relative; */
+  /* left:25%; */
+  color:white;
+  font-size:20px;
+  font-weight:500;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Home_image_name{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Papyrus','Arial';
+  color: rgb(152, 202, 214);
+}
